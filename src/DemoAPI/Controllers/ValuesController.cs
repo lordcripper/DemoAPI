@@ -15,13 +15,13 @@ namespace DemoAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] {"val1","val1"};
+            return new string[] {"val1","val1"}
         }
 
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Puneet Singh";
+            return "Puneet";
         } 
     }
 }
